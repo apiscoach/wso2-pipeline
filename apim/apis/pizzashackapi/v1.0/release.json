@@ -1,6 +1,6 @@
 {
   "artifactRepository": "isamauny-wso2/pizzashackapi",
-  "releaseVersion": "r25",
+  "releaseVersion": "r26",
   "artifacts": [
     "pizzashackapi.zip"
   ],
