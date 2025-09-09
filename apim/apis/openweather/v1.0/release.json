@@ -1,6 +1,6 @@
 {
   "artifactRepository": "isamauny-wso2/openweather",
-  "releaseVersion": "r2",
+  "releaseVersion": "r3",
   "artifacts": [
     "OpenWeather_1.0.zip"
   ],
