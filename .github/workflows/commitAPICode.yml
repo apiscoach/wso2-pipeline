@@ -20,7 +20,7 @@ permissions:
 jobs:
     commit-new-version:
         name: commit new API version
-        uses: isamauny-wso2/wso2-workflows/.github/workflows/commitAPICode.yml@main
+        uses: apiscoach/wso2-workflows/.github/workflows/commitAPICode.yml@main
         with:
             apiName: ${{ inputs.apiName }}
             apiVersion: ${{ inputs.apiVersion }}
