@@ -5,7 +5,7 @@
 This repository serves as the **central GitOps-style control plane** for deploying APIs, policies, and related artifacts to WSO2 API Manager environments using GitHub Actions.
 
 It works in conjunction with:
-- [**`wso2-workflows`**](https://github.com/wso2-cicd/wso2-workflows): A library of reusable GitHub Action workflows.
+- [**`wso2-workflows`**](https://github.com/apiscoach/wso2-workflows): A library of reusable GitHub Action workflows.
 - **Individual API/policy repositories**: Each containing versioned API artifacts and configurations.
 
 Together, they enable **secure**, **automated**, and **auditable** deployments across `Dev`, `QA`, `UAT`, and `Prod` environments.
@@ -61,8 +61,8 @@ Set the following secrets at the repository level (or at the organization level 
 
 ## 📚 Related Repositories
 
-- [`wso2-workflows`](https://github.com/wso2-cicd/wso2-workflows) – Reusable GitHub Actions workflows for API and policy deployments.
-- Individual API Repos (e.g., `api-identity-sys`, `api-ecommerce-exp`)
+- [`wso2-workflows`](https://github.com/apiscoach/wso2-workflows) – Reusable GitHub Actions workflows for API and policy deployments.
+- Individual API Repos (e.g., `openweather`, `pizzashack`)
 - Policy Repos (`policy-mediation`, `policy-rate-limiting`)
 
 ---
