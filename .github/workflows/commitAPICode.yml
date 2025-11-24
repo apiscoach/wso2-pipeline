@@ -11,6 +11,10 @@ on:
             type: string
             description: API Version
             required: true
+        invoker:
+            type: string
+            description: Workflow invoker
+            required: true    
 
 permissions:
   id-token: write
@@ -24,6 +28,7 @@ jobs:
         with:
             apiName: ${{ inputs.apiName }}
             apiVersion: ${{ inputs.apiVersion }}
+            invoker: ${{ inputs.invoker }}
         secrets:
             ghBotUsername: ${{ secrets.WSO2_GIT_BOT_USERNAME }}
             ghBotEmail: ${{ secrets.WSO2_GIT_BOT_EMAIL }}
